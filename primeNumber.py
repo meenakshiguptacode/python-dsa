@@ -17,7 +17,6 @@ def is_prime(n):
         
     return True
 
-
 if __name__ == "__main__":
     number = int(input("Enter a number: "))
     print("true" if is_prime(number) else "false")
